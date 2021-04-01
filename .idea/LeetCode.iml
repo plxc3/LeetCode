@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/com.plxcc.code" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/com.plxcc.code/算法分析与设计/斐波那契（矩阵快速幂）" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
