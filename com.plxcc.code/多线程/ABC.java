@@ -7,9 +7,9 @@ class MyThread extends Thread{
     private static int  state = 1;
     private static Lock lock = new ReentrantLock();
     @Override
-    public synchronized void run(){
+    public void run(){
+        lock.lock();
         try {
-            lock.lock();
             for (int i = 0; i < 10;) {
                 if(state%3 == 1){
                     System.out.print("A");
