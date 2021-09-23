@@ -4,6 +4,7 @@ package 多线程;
 public class ABC3 {
     public static void main(String[] args) {
         MyPrint myPrint = new MyPrint();
+        System.out.println(System.currentTimeMillis());
         new Thread(()->{
             for (int i = 0; i < 100;) {
                 if(myPrint.getState()%3==1){
